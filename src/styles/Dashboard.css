@@ -1,0 +1,75 @@
+/* Dashboard.css */
+
+/* Background gradient reflecting national colors */
+.dashboard-container {
+    background: linear-gradient(to bottom right, #ff9933, #138808, #ffffff, #000080, #6a0dad);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Center the form container */
+.dashboard-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Form title */
+.dashboard-form h1 {
+    color: #000080; /* Dark blue for the title */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Form labels */
+.dashboard-form label {
+    display: block;
+    margin-bottom: 15px;
+    color: #000000; /* Black color for text */
+    font-weight: bold;
+}
+
+/* Form select and textarea */
+.dashboard-form select, .dashboard-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Form button */
+.dashboard-form button {
+    background-color: #ff9933; /* Saffron color */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-form button:hover {
+    background-color: #e68a00; /* Darker saffron on hover */
+}
+
+/* Response section */
+.response {
+    margin-top: 20px;
+}
+
+.response h2 {
+    color: #6a0dad; /* Purple for the response title */
+}
+
+.response p {
+    color: #000000; /* Black color for response text */
+}

@@ -1,0 +1,63 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ff9933, #ffffff, #138808); /* Indian flag colors */
+    padding: 20px;
+}
+
+.login-form {
+    background: #ffffff; /* White background for the form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid #000080; /* Dark blue border */
+}
+
+.login-form h1 {
+    font-size: 2.5rem;
+    color: #000080; /* Dark blue color for the heading */
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: calc(100% - 20px); /* Full width with padding */
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-form button {
+    width: calc(100% - 20px); /* Full width with padding */
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button[type="submit"] {
+    background-color: #ff9933; /* Saffron color for the login button */
+}
+
+.login-form button[type="submit"]:hover {
+    background-color: #e68a00; /* Darker saffron for hover effect */
+}
+
+.login-form button[type="button"] {
+    background-color: #000080; /* Dark blue color for the forgot password button */
+}
+
+.login-form button[type="button"]:hover {
+    background-color: #003c8f; /* Darker blue for hover effect */
+}
